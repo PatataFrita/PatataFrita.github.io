@@ -1,0 +1,1613 @@
+body{
+
+	background-color: transparent; 
+	background:url(../images/ii.png);
+    background-size: cover;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'BebasNeue';
+    text-align: center;
+    padding-top: 0px;
+
+}
+*{
+	margin:0;
+	padding:0;
+	color: #000;
+	text-decoration: "none";
+
+}
+@font-face {
+    font-family: 'Bellerose';
+    src: url('../fonts/Bellerose.eot');
+    src: url('../fonts/Bellerose.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Bellerose.woff') format('woff'),
+         url('../fonts/Bellerose.ttf') format('truetype'),
+         url('../fonts/Bellerose.svg#1942_report1942_report') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../fonts/BebasNeue.eot');
+    src: url('../fonts/BebasNeue.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue.woff') format('woff'),
+         url('../fonts/BebasNeue.otf') format('opentype'),
+         url('../fonts/BebasNeue.ttf') format('truetype'),
+         url('../fonts/BebasNeue.svg#1942_report1942_report') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ubuntumono-r-webfont';
+    src: url('../fonts/ubuntumono-r-webfont.eot');
+    src: url('../fonts/ubuntumono-r-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntumono-r-webfont.woff') format('woff'),
+         url('../fonts/ubuntumono-r-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntumono-r-webfont.svg#1942_report1942_report') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'SpicyRice-Regular';
+    src: url('../fonts/SpicyRice-Regular.eot');
+    src: url('../fonts/SpicyRice-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SpicyRice-Regular.woff') format('woff'),
+         url('../fonts/SpicyRice-Regular.ttf') format('truetype'),
+         url('../fonts/SpicyRice-Regular.svg#1942_report1942_report') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*PRUEBA*/
+
+ul, ol {
+	list-style: none;
+}
+.nav{
+		padding: 0px;
+		width: auto;
+		height: 67px;
+
+	margin-left: 20%;
+	margin: 5px;
+    display: inline-block;  
+	margin-left: 0px;
+	margin-top: 0px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	box-shadow: inset 0px -2px 2px 0px rgba(0,0,0,0.5), inset 0px 1px 6px 0px rgba(0,0,0,0.5);
+	z-index: 1;
+}
+
+.nav ul {
+	list-style-type: none;
+
+	height: 30px;
+	width: 100%;
+	padding: 0px;
+	margin: 0;
+	float: center;
+	z-index: 1;
+
+	
+}
+.nav li a{
+
+	color: #000;
+	text-decoration: none;
+	padding: 10px, 15px;
+	display: block;
+	z-index: 1;
+}
+.nav > li{
+	float: left;
+}
+.nav li{
+
+	font-size: 14px;
+
+	margin: 0 auto 0 auto;
+	position: relative;
+	list-style: none;
+	padding: 0px 0 0 0;
+	z-index: 1;
+
+}
+
+
+.nav li a{
+	text-decoration: none;
+	font-size:25px;
+	color: #000;
+	padding: 0px;
+	float:center;
+	padding: 19px;/*Jugar con padding js*/
+	z-index: 1;
+	
+}
+
+.nav a {
+	padding: 0px;
+	cursor: pointer;
+	display: block;
+	color: white;
+	line-height: 30px;
+	padding: 0;
+}
+/*PRUEBA*/
+
+#header{
+	background-color: rgba(255,255,255,0.6);
+
+	height: 67px;
+	padding: 0 0 0 23.5%;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	box-shadow: inset 0px -2px 2px 0px rgba(0,0,0,0.5), inset 0px 1px 6px 0px rgba(0,0,0,0.5);
+}
+
+#logo{
+	padding: 0;
+	margin: 0;
+}
+
+#inside {
+
+	float: center;
+	width: 70%;
+		height: 67px;
+}
+
+
+.menu {
+	padding: 0px;
+		width: auto;
+		height: 67px;
+	font-size: 0;
+	margin-left: 20%;
+	margin: 5px;
+    display: inline-block;  
+	margin-left: 0px;
+	margin-top: 0px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	box-shadow: inset 0px -2px 2px 0px rgba(0,0,0,0.5), inset 0px 1px 6px 0px rgba(0,0,0,0.5);
+	/*overflow: hidden;*/
+
+}
+.menu ul {
+	list-style-type: none;
+    background: #000;
+	height: 30px;
+	width: 100%;
+	padding: 0px;
+	margin: 0;
+	float: center;
+
+
+	
+}
+.menu li{
+	display: inline-block;
+	font-size: 14px;
+	float: left;
+	margin: 0 auto 0 auto;
+	position: relative;
+	list-style: none;
+	padding: 0px 0 0 0;
+
+}
+
+.b li{
+	display: inline;
+
+
+}
+
+.menu li a{
+	text-decoration: none;
+	font-size:25px;
+	color: #000;
+	padding: 0px;
+	float:center;
+	padding: 19px;/*Jugar con padding js*/
+	
+}
+
+.menu a {
+	padding: 0px;
+	cursor: pointer;
+	display: block;
+	color: white;
+	line-height: 30px;
+	padding: 0;
+}
+h2{
+	font-family: 'BebasNeue';
+	font-color: 'white';
+	font-size: 40px;
+}
+
+
+.text{
+	font-family: 'ubuntumono-r-webfont';
+	font-size: 20px;
+	
+	width:68%;
+	margin: auto;
+	text-align: left;
+}
+.text2{
+	font-family: 'ubuntumono-r-webfont';
+	font-size: 20px;
+	
+	width:82%;
+	margin: auto;
+	text-align: left;
+}
+h3{
+	font-family: 'BebasNeue';
+	font-size: 20px;
+	color:'white';
+}
+
+
+.main-picture {
+	background: #000 url(../images/Portada44435.jpg) no-repeat top left;
+	background-size: contain;
+	padding: 20.9% 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: right;
+	height: 0px;
+	background-size: 100%;
+	margin-top: 660px;
+	z-index: -1;
+
+
+}
+.main-pictureb{
+		background: #000 url(../images/../images/SmokingGlassesReverso.jpg) no-repeat top left;
+		background-size: contain;
+
+		width: 630px;
+		height: 630px;
+		position: absolute;
+		margin-left: 25%;
+
+		background-size: 100%;
+
+		z-index: 0;
+
+
+	}
+
+/*COLABORATORS*/
+.imagen-agradecimientos{
+	width: 500px;
+	height: 500px;
+	background: #fff url(../images/agradecimientosEp.jpeg) no-repeat 50% 20%;
+	background-size: cover;
+	float: left;
+	margin-left: 100px;
+	border-radius: 5px;
+	box-shadow: 2px 7px 10px 0px #333333;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+.colab{
+	width: 1000px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	margin-bottom: 70px;
+	margin-top: 40px;
+
+
+}
+.colab2{
+	width: 500px;
+	height: 500px;
+	border-radius: 5px;
+	font-size: 20px;
+	color: #fff;
+	margin-top: 50px;
+	padding-left: 20px;
+	float:right;
+}
+.colab2a{
+	width: 480px;
+	height: 140px;
+
+}
+.colab2c{
+	width: 480px;
+	height: 140px;
+	padding-top: 7px;
+
+}
+.colab2b{
+	width: 480px;
+	height: 200px;
+	padding-top: 20px;
+
+}
+
+
+/*GALERY*/
+.arrow-left{
+	background: transparent url(../images/galery/leftb.png) no-repeat top left;
+	background-size: contain;
+
+	width: 400px;
+	height: 510px;
+	position: absolute;
+	text-align: right;
+
+	background-size: 100%;
+
+	z-index: 21;
+
+
+}
+.arrow-right{
+	background: transparent url(../images/galery/rightb.png) no-repeat top left;
+	background-size: contain;
+	margin-left: 400px;
+	width: 400px;
+	height: 510px;
+	position: absolute;
+	text-align: right;
+
+	background-size: 100%;
+
+	z-index: 20;
+
+}
+
+.galeria{
+	
+	margin:auto;
+	margin-top: 35px;
+	width: 800px;
+	height:504px;
+
+	position:relative;
+}
+
+.photo1 {
+	background: #000 url(../images/galery/photo1.jpg) no-repeat top left;
+	background-size: contain;
+	padding: 32% 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: right;
+	height: 0px;
+	background-size: 100%;
+
+	z-index: -1;
+
+
+
+}
+.photo2 {
+	background: #000 url(../images/galery/photo2.jpg) no-repeat top left;
+	background-size: contain;
+	padding: 32% 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: right;
+	height: 0px;
+	background-size: 100%;
+
+	z-index: -2;
+}
+.photo3 {
+	background: #000 url(../images/galery/photo3.jpg) no-repeat top left;
+	background-size: contain;
+	padding: 32% 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: right;
+	height: 0px;
+	background-size: 100%;
+
+	z-index: -2;
+}
+.photo4 {
+	background: #000 url(../images/galery/photo4.jpg) no-repeat top left;
+	background-size: contain;
+	padding: 32% 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: right;
+	height: 0px;
+	background-size: 100%;
+
+	z-index: -2;
+}
+.photo5 {
+	background: #000 url(../images/galery/photo5.jpg) no-repeat top left;
+	background-size: contain;
+	padding: 32% 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: right;
+	height: 0px;
+	background-size: 100%;
+
+	z-index: -2;
+}
+.photo6 {
+	background: #000 url(../images/galery/photo6.jpg) no-repeat top left;
+	background-size: contain;
+	padding: 32% 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: right;
+	height: 0px;
+	background-size: 100%;
+
+	z-index: -2;
+}
+.photo7 {
+	background: #000 url(../images/galery/photo7.jpg) no-repeat top left;
+	background-size: contain;
+	padding: 32% 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: right;
+	height: 0px;
+	background-size: 100%;
+
+	z-index: -2;
+}
+.photo8 {
+	background: #000 url(../images/galery/photo8.jpg) no-repeat top left;
+	background-size: contain;
+	padding: 32% 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: right;
+	height: 0px;
+	background-size: 100%;
+
+	z-index: -2;
+}
+.photo9 {
+	background: #000 url(../images/galery/photo9.jpg) no-repeat top left;
+	background-size: contain;
+	padding: 32% 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: right;
+	height: 0px;
+	background-size: 100%;
+
+	z-index: -2;
+}
+.photo10 {
+	background: #000 url(../images/galery/photo10.jpg) no-repeat top left;
+	background-size: contain;
+	padding: 32% 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: right;
+	height: 0px;
+	background-size: 100%;
+
+	z-index: -2;
+}
+.photo11 {
+	background: #000 url(../images/galery/photo11.jpg) no-repeat top left;
+	background-size: contain;
+	padding: 32% 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: right;
+	height: 0px;
+	background-size: 100%;
+
+	z-index: -2;
+}
+.photo12 {
+	background: #000 url(../images/galery/photo12.jpg) no-repeat top left;
+	background-size: contain;
+	padding: 32% 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: right;
+	height: 0px;
+	background-size: 100%;
+
+	z-index: -2;
+}
+
+.logo-photo-content{
+	width: 100%;
+	height: 100%;
+	float:center;
+	opacity: 0.8;
+	margin-top: 120px;
+}
+.logo-photo{
+
+	width: 600px;
+	height: 368px;
+	float:center;
+
+}
+
+.menu2 {
+	padding: 5px;
+		width: 200px;
+		height: 50px;
+	font-size: 0;
+	float: center;
+	margin-left: 83px;
+
+
+}
+
+.menu2 .lim{
+	display: inline-block;
+	font-size: 14px;
+	float: center;
+
+	
+	list-style: none;
+
+
+
+}
+
+.menu2 .lim a{
+	text-decoration: none;
+
+	font-size:18px;
+	color: #000;
+	padding: 0px;
+	text-align: left;
+
+	float:center;
+	padding: 0px;
+
+	
+}
+
+.menu2 a {
+	padding: 0px;
+	cursor: pointer;
+	display: block;
+	color: white;
+	line-height: 30px;
+	padding: 0;
+
+}
+
+.menu3 {
+	padding: 0px;
+		width: 40;
+		height: 67px;
+	font-size: 0;
+	margin-left: 20%;
+
+    display: inline-block;  
+	margin-left: 0px;
+	margin-top: 0px;
+	overflow: hidden;
+
+}
+.menu3 ul {
+	list-style-type: none;
+
+	height: 30px;
+	width: 100%;
+	padding: 0px;
+	margin: 0;
+	float: center;
+
+	
+}
+.menu3 li{
+	display: inline-block;
+	font-size: 14px;
+	float: center;
+	margin: 0 auto 0 auto;
+	position: relative;
+	list-style: none;
+	padding: 0px 0 0 0;
+
+}
+
+.menu3 li a{
+	text-decoration: none;
+	font-size:25px;
+	color: "white";
+	padding: 0px;
+	float:center;
+	padding: 19px;/*Jugar con padding js*/
+	
+}
+
+.menu3 a {
+	padding: 0px;
+	cursor: pointer;
+	display: block;
+	color: white;
+	line-height: 30px;
+	padding: 0;
+}
+
+
+#button2{
+	padding: 14px 0 0 10%;
+	float: left;
+	font-color: #000;
+	width: 10px;
+	height: 20px;
+	margin: 0px 5px;
+	vertical-align: middle;
+
+}
+.button2 img{
+	width: 10px;
+	height: 20px;
+}
+.active{
+	background-color: rgba(255,255,255,0.9);
+	/*background-color: rgba(16,194,248,0.5);*/
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	box-shadow: inset 0px -2px 2px 0px rgba(0,0,0,0.5), inset 0px 1px 6px 0px rgba(0,0,0,0.5);
+}
+.button3{
+	background-color: rgba(255,255,255,0.7);
+	/*background-color: rgba(16,194,248,0.5);*/
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	box-shadow: inset 0px -2px 2px 0px rgba(0,0,0,0.5), inset 0px 1px 6px 0px rgba(0,0,0,0.5);
+}
+.active2{
+	background-color: rgba(255,255,255,0.9);
+	/*background-color: rgba(16,194,248,0.5);*/
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	box-shadow: inset 0px -2px 2px 0px rgba(0,0,0,0.5), inset 0px 1px 6px 0px rgba(0,0,0,0.5);
+}
+.active3{
+	background-color: rgba(0,0,0,1);
+	/*background-color: rgba(16,194,248,0.5);*/
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	box-shadow: inset 0px -2px 2px 0px rgba(0,0,0,0.5), inset 0px 1px 6px 0px rgba(0,0,0,0.5);
+	position: relative;
+	z-index: 1000;
+
+}
+
+.button5 a{
+	color: #fff;
+}
+
+.members-content li a {
+	margin-top: 10px;
+	text-decoration: none;
+	color: #000;
+
+}
+.members-content {
+	text-align: center;
+	border-color: #000;
+	padding: 20px;
+
+
+				
+}
+
+.group-member{
+	margin-top:7px;
+	height: 800px;
+
+
+}
+
+.wrapper .members-content li{
+	text-decoration: none;
+	display: inline-block;
+	padding: 0px 30px;
+	font-size: 20px;
+
+
+}
+.wrapper{
+	width: 70%;
+	margin: 0px auto;
+	max-width: 1500px;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	box-shadow: inset 0px -2px 2px 0px rgba(0,0,0,0.5), inset 0px 1px 6px 0px rgba(0,0,0,0.5);
+
+}
+.whited{
+	color:white;
+}
+.whited2{
+	color:white;
+	text-decoration: "none";
+}
+
+
+.image-keys {
+	width: 30%;
+	height: 400px;
+	background: #fff url(../images/piano.jpg) no-repeat 50% 20%;
+	background-size: cover;
+	float: left;
+	margin: 0px 20px 20px 0px;
+	border-radius: 5px;
+	box-shadow: 0px 7px 5px 0px #333333;
+	padding: 20px;
+}
+
+
+.image-singer {
+	width: 30%;
+	height: 400px;
+	background: #fff url(../images/Pepa.jpg) no-repeat 100% 100%;
+	background-size: cover;
+	float: left;
+	margin: 0px 20px 20px 0px;
+	border-radius: 5px;
+	box-shadow: 0px 7px 5px 0px #333333;
+	padding: 20px;
+}
+.image-drums {
+	width: 30%;
+	height: 400px;
+	background: #fff url(../images/bateria.jpg) no-repeat 50% 20%;
+	background-size: cover;
+	float: left;
+	margin: 0px 20px 20px 0px;
+	border-radius: 5px;
+	box-shadow: 0px 7px 5px 0px #333333;
+	padding: 20px;
+}
+.image-guitar {
+	width: 30%;
+	height: 400px;
+	background: #fff url(../images/David.jpg) no-repeat 50% 20%;
+	background-size: cover;
+	float: left;
+	margin: 0px 20px 20px 0px;
+	border-radius: 5px;
+	box-shadow: 0px 7px 5px 0px #333333;
+	padding: 20px;
+}
+.image-bass {
+	width: 30%;
+	height: 400px;
+	background: #fff url(../images/bajo.jpg) no-repeat 50% 20%;
+	background-size: cover;
+	float: left;
+	margin: 0px 20px 20px 0px;
+	border-radius: 5px;
+	box-shadow: 0px 7px 5px 0px #333333;
+	padding: 20px;
+}
+
+.logo-history{
+	width: 27%;
+	height: 450px;
+	background: #fff url(../images/pepito.jpg) no-repeat 50% 20%;
+	background-size: cover;
+	float: right;
+	margin: 0px 20px 20px 0px;
+	padding: 20px;
+
+}
+.logo-historyb{
+	width: 32%;
+	height: 190px;
+	background: #fff url(../images/grillo.jpg) no-repeat 30% 10%;
+	background-size: cover;
+	float: left;
+	margin: 0px 20px 20px 0px;
+	padding: 100px;
+
+}
+
+p {
+	color:#fff;
+}
+/*new*/
+
+
+
+
+
+
+.logo-title{
+	vertical-align: middle;
+	position: absolute;
+
+
+	margin-left: 10px;
+
+	font-size: 16px;
+
+}
+
+.main-header .logo .logo-title img {
+	width: 10px;
+	height: 20px;
+	margin: 0px 5px;
+
+	vertical-align: middle;
+}
+
+.logo-title div {
+	float:left;
+
+	/*background-color: #000;*/
+}
+.logo a{
+	text-decoration: none;
+
+}
+
+
+.logo {
+	position: relative;
+	float:left;
+
+}
+
+
+
+/*FOOTER1*/
+.main-footer{
+	background: none repeat scroll 0% 0% #000;
+	min-height: 60px;
+	margin-top: 10px;
+	color:#000;
+	text-align: center;
+	padding: 10px;
+	/*white*//*background-color: rgba(255,255,255,0.6);*/
+	background-color: rgba(255,255,255,0.6);
+	bottom: 0px;
+
+	box-shadow: -5px -5px 5px 5px rgba(0,0,0,1);
+	box-shadow: inset 0px -5px 4px 0px rgba(0,0,0,0.5), inset 0px 5px 6px 0px rgba(0,0,0,0.5);
+
+	/*    <!--STICKY CODE-->*/
+position: relative;
+	margin-top: -65px; /* negative value of footer height */
+	height: 65px;
+	clear:both;
+	/*    <!--STICKY CODE-->*/
+
+
+
+}
+
+.infooter{
+	width: 70%;
+	margin: 0px auto;
+	max-width: 1500px;
+	font-size: 8px;
+	font-family: "ubuntumono-r-webfont";
+	color: #000;
+
+}
+
+/*STICKY CODE*/
+html, body {height: 100%;}
+/*STICKY CODE*/
+/*    <!--STICKY CODE-->*/
+.wrapsticky{
+	min-height: 100%;
+	padding-bottom: 70px;
+}
+.wrapstickyb{
+	min-height: 94.5%;
+	padding-bottom: 0px;
+}
+.wrapstickyc{
+	min-height: 100%;
+	padding-bottom: 70px;
+}
+
+/*    <!--STICKY CODE-->*/
+
+
+.main-content {
+	background-attachment: fixed;
+	background-size: 100%;
+
+	padding: 15px 0px;
+	width: 100%;
+	height: 500%;
+
+/*STICKY CODE*/
+
+	overflow:auto;
+	padding-bottom: 70px;  /* must be same height as the footer */
+
+/*STICKY CODE*/
+
+
+}
+
+.relleno {
+	
+	height: 680px;
+}
+.content{
+
+	font-color:#fff;
+
+	margin: auto;
+	margin-bottom: 100px;
+}
+.whiting{
+	font-color:#fff;
+	color: #fff;
+}
+
+.social-icons a{
+	color:#fff;
+	text-decoration: none;
+	display:inline-block;
+	padding: 0px;
+	font-size: 14px;
+	position: relative;
+
+}
+.social-icons a:hover{
+	color: grey;
+}
+.social-icons .icon{
+	font-size: 20px;
+	display: inline-block;
+}
+.social-icons .email{
+	display:none;
+	position: absolute;
+}
+
+.social-icons a:hover .email{
+	display: block;
+
+}
+.face{
+	width: 40px;
+	height: 40px;
+	margin-bottom: 4px;
+}
+.twit{
+	width: 43px;
+	height: 43px;
+}
+.yout{
+	width: 43px;
+	height: 43px;
+}
+.shadows{
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	box-shadow: inset 0px -2px 2px 0px rgba(0,0,0,0.5), inset 0px 1px 6px 0px rgba(0,0,0,0.5);
+}
+
+/*new*/
+/*movile version*/
+
+
+.burger-content{
+	display: none;
+}
+.visi{
+	display: inline;
+}
+
+.video-content{
+	margin: auto;
+	width: 560px; 
+	height: 315px;
+
+}
+.video-content2{
+	margin: auto;
+	margin-left: 330px;
+	width: 560px; 
+	height: 315px;
+	z-index: 20px;
+
+}
+
+.fix{
+	height: 10px;
+	overflow: "hidden";
+
+}
+.rellenito{
+	height: 40px;
+}
+
+/*Galeria*/
+
+.content-gal{
+	margin-top: 46px;
+	margin-bottom: 63px;
+	width: 100%;
+	height: 20px;
+}
+
+/*SmokingGlasseSALBUM*/
+.imaporep {
+	width: 600px;
+	height: 600px;
+	margin: auto;
+	border-radius: 5px;
+}
+.imaporepb {
+	width: 600px;
+	height: 600px;
+	margin: auto;
+	border-radius: 5px;
+}
+
+
+.imagen-portadaEP {
+	width: 500px;
+	height: 500px;
+	background: #fff url(../images/SmokingGlassesAnverso.jpg) no-repeat 50% 20%;
+	background-size: cover;
+
+	margin: auto;
+	border-radius: 5px;
+	box-shadow: 2px 7px 10px 0px #333333;
+	padding: 30px;
+}
+.imagen-portadaEPb {
+	width: 500px;
+	height: 500px;
+	background: #fff url(../images/SmokingGlassesReverso.jpg) no-repeat 50% 20%;
+	background-size: cover;
+	left:70%;
+	margin: auto;
+	border-radius: 5px;
+	box-shadow: 2px 7px 10px 0px #333333;
+	padding: 30px;
+}
+
+.imagen-portadaEPb:hover{
+	width: 500px;
+	height: 500px;
+	background: #fff url(../images/SmokingGlassesReversoHOVER.jpg) no-repeat 50% 20%;
+	background-size: cover;
+	left:70%;
+	margin: auto;
+	border-radius: 5px;
+	box-shadow: 2px 7px 10px 0px #333333;
+	padding: 30px;
+}
+.imagen-portadaEP:hover{
+	width: 500px;
+	height: 500px;
+	background: #fff url(../images/SmokingGlassesAnversoHOVER.jpg) no-repeat 50% 20%;
+	background-size: cover;
+
+	margin: auto;
+	border-radius: 5px;
+	box-shadow: 2px 7px 10px 0px #333333;
+	padding: 30px;
+}
+
+/*Contact*/
+.contact-content{
+	height: 80px;
+	width: 40%;
+	margin: auto;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	box-shadow: inset 0px -2px 2px 0px rgba(0,0,0,0.5), inset 0px 1px 6px 0px rgba(0,0,0,0.5);
+	margin-bottom: 50px;
+	margin-top:30px;
+
+}
+.contact-box{
+		height: 80px;
+	width: 80px;
+	float: left;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	box-shadow: inset 0px -2px 2px 0px rgba(0,0,0,0.5), inset 0px 1px 6px 0px rgba(0,0,0,0.5);
+
+
+}
+
+
+@media all and (max-width: 830px) {
+
+	body{
+		background-color: transparent; 
+		background:url(../images/i.png);
+	    background-size: cover;
+		background-attachment: fixed;
+	    background-repeat: no-repeat;
+	    color: white;
+	    font-family: 'BebasNeue';
+	    text-align: center;
+	    padding-top: 0px;
+	}
+	.menu { height: auto; }
+	.menu li { float: none; width: 100%; }
+	.menu a { line-height: 40px; }
+	.menu ul { position: relative; }
+	.menu2 {
+		margin-left: 17px;
+				padding: 5px;
+		width: 100px;
+		height: 50px;
+		font-size: 0;
+		float: center;
+
+
+	}
+	.content{
+
+		font-color:#fff;
+
+		margin: auto;
+		margin-bottom: 40px;
+	}
+	.rellenito{
+		height: 10px;
+	}
+	.nav{
+
+		display: none;
+	}
+
+	.inside{
+		display: none;
+	}
+	.burger{
+		display: inline;
+
+	}
+	.burger-logo{
+		height: 50px;
+		width: 50px;
+		
+		float: right;
+		background: transparent url(../images/burger.png) no-repeat 50% 20%;
+		background-size: cover;
+		z-index: 1000;
+
+
+
+	}
+
+	.burger-content{
+		height: 0px;
+		width: 110%;
+		margin-top: 7px;
+		float: right;
+		margin-right: 32px;
+
+		display: inline;
+	}
+	.burger-menu{
+		float: right;
+		height: 200px;
+		width: 115px;
+		
+
+
+
+
+	}
+
+	.navb{
+			padding: 0px;
+			width: 80%;
+			height: 50px;
+			margin-left: 20%;
+			margin: 5px;
+		    display: inline-block;  
+			margin-left: 0px;
+			margin-top: 0px;
+
+			z-index: 1;
+			overflow: visible;
+			
+
+
+			margin-right: 10%;
+
+	}
+
+	.navb ul {
+		list-style-type: none;
+
+
+		width: 100%;
+		padding: 0px;
+		margin: 0;
+		float: center;
+		z-index: 1;
+
+
+		
+	}
+	.navb li a{
+
+		color: #000;
+		text-decoration: none;
+		width: 97px;
+
+		display: block;
+
+			position: relative;
+			z-index: 999;
+
+	}
+	.navb > li{
+		float: left;
+	}
+	.navb li{
+
+		font-size: 14px;
+
+		margin: 0 auto 0 auto;
+		position: relative;
+		list-style: none;
+		padding: 0px 0 0 0;
+		z-index: 1;
+
+	}
+
+
+	.navb li a{
+		text-decoration: none;
+		font-size:20px;
+		color: #000;
+
+		float:center;
+		padding: 5px;/*Jugar con padding js*/
+		z-index: 1;
+		
+	}
+
+	.navb a {
+		padding: 0px;
+		cursor: pointer;
+		display: block;
+		color: white;
+		line-height: 30px;
+		padding: 0;
+	}
+	.button4{
+					background-color: rgba(255,255,255,0.7);
+	}
+	.relleno {
+	
+		height: 100px;
+	}
+	.iframe{
+		width: 100px;
+		height: 100px;
+	}
+	.video-content{
+		margin: auto;
+		width: 250px; 
+		height: 200px;
+
+	}
+	.image-bass {
+		width: 30%;
+		height: 100px;
+		background: #fff url(../images/bajo.jpg) no-repeat 50% 20%;
+		background-size: cover;
+		float: left;
+		margin: 0px 20px 20px 0px;
+		border-radius: 5px;
+		box-shadow: 0px 7px 5px 0px #333333;
+		padding: 20px;
+	}
+	.image-drums {
+		width: 30%;
+		height: 100px;
+		background: #fff url(../images/bateria.jpg) no-repeat 50% 20%;
+		background-size: cover;
+		float: left;
+		margin: 0px 20px 20px 0px;
+		border-radius: 5px;
+		box-shadow: 0px 7px 5px 0px #333333;
+		padding: 20px;
+	}
+	.image-keys {
+		width: 30%;
+		height: 100px;
+		background: #fff url(../images/piano.jpg) no-repeat 50% 20%;
+		background-size: cover;
+		float: left;
+		margin: 0px 20px 20px 0px;
+		border-radius: 5px;
+		box-shadow: 0px 7px 5px 0px #333333;
+		padding: 20px;
+	}
+
+
+	.image-singer {
+		width: 30%;
+		height: 100px;
+		background: #fff url(../images/Pepa.jpg) no-repeat 100% 100%;
+		background-size: cover;
+		float: left;
+		margin: 0px 20px 20px 0px;
+		border-radius: 5px;
+		box-shadow: 0px 7px 5px 0px #333333;
+		padding: 20px;
+	}
+
+	.image-guitar {
+		width: 30%;
+		height: 100px;
+		background: #fff url(../images/David.jpg) no-repeat 50% 20%;
+		background-size: cover;
+		float: left;
+		margin: 0px 20px 20px 0px;
+		border-radius: 5px;
+		box-shadow: 0px 7px 5px 0px #333333;
+		padding: 20px;
+	}
+
+
+
+
+	.menu3 {
+		padding: 0px;
+			width: 40;
+			height: 67px;
+		font-size: 0;
+		margin-left: 20%;
+
+	    display: inline-block;  
+		margin-left: 0px;
+		margin-top: 0px;
+		overflow: hidden;
+
+
+	}
+	.menu3 ul {
+		list-style-type: none;
+
+		height: 30px;
+		width: 100%;
+		padding: 0px;
+		margin: 0;
+		float: center;
+
+		
+	}
+	.menu3 li{
+		display: inline-block;
+		font-size: 14px;
+		float: center;
+		margin: 0 auto 0 auto;
+		position: relative;
+		list-style: none;
+		padding: 0px 0 0 0;
+
+	}
+
+	.menu3 li a{
+		text-decoration: none;
+		font-size:25px;
+		color: "white";
+		padding: 0px;
+		float:center;
+		padding: 9px;/*Jugar con padding js*/
+
+		
+	}
+
+	.menu3 a {
+		padding: 0px;
+		cursor: pointer;
+		display: block;
+		color: white;
+		line-height: 30px;
+		padding: 0;
+	}
+	.whited{
+		font-size: 14px;
+	}
+
+
+	.text{
+		width: 240px;
+		font-size: 13px;
+	}
+	.main-picture{
+		background: #000 url(../images/portada2.jpg) no-repeat top left;
+		background-size: contain;
+		padding: 20.9% 0px;
+		width: 100%;
+		height: 100px;
+		position: absolute;
+		text-align: right;
+
+		background-size: 100%;
+		margin-top: 660px;
+		z-index: -1;
+
+
+	}
+
+
+	.main-pictureb:hover{
+		width: 500px;
+		height: 500px;
+		background: #fff url(../images/SmokingGlassesReversoHOVER.jpg) no-repeat 50% 20%;
+		background-size: cover;
+		left:70%;
+		margin: auto;
+		border-radius: 5px;
+		box-shadow: 2px 7px 10px 0px #333333;
+		padding: 30px;
+	}
+
+	.photo1{
+		background: #000 url(../images/galery/photo1.jpg) no-repeat top left;
+		background-size: contain;
+
+		position: absolute;
+		text-align: right;
+
+		background-size: 100%;
+
+		z-index: -1;
+
+
+	}
+
+	.menu2 .lim{
+		display: inline-block;
+		font-size: 14px;
+		float: center;
+		width: 10px;
+
+		list-style: none;
+	}
+	.change {
+		color:#fff;
+	}
+
+/*BIO*/
+
+	.logo-history{
+		width: 30%;
+		height: 100px;
+		background: #fff url(../images/pepito.jpg) no-repeat 50% 20%;
+		background-size: cover;
+		float: right;
+		margin: 0px 20px 20px 0px;
+		padding: 20px;
+
+	}
+	.logo-historyb{
+		width: 15%;
+		height: 10px;
+		background: #fff url(../images/grillo.jpg) no-repeat 50% 20%;
+		background-size: cover;
+		float: left;
+		margin: 0px 20px 20px 0px;
+		padding: 50px;
+
+	}
+
+/*BIO*/
+
+	/*GALERY*/
+
+
+	.galeria{
+	
+		margin:auto;
+		margin-top: 35px;
+		width: 200px;
+		height:104px;
+
+		position:relative;
+	}
+
+
+	.arrow-left{
+		background: transparent url(../images/galery/leftb.png) no-repeat top left;
+		background-size: contain;
+
+		width: 100px;
+		height: 104px;
+		position: absolute;
+		text-align: right;
+
+		background-size: 100%;
+
+		z-index: 21;
+
+
+	}
+	.arrow-right{
+		background: transparent url(../images/galery/rightb.png) no-repeat top left;
+		background-size: contain;
+		margin-left: 100px;
+		width: 100px;
+		height: 104px;
+		position: absolute;
+		text-align: right;
+
+		background-size: 100%;
+
+		z-index: 20;
+
+	}
+
+	.wrapstickyc{
+		min-height: 95.5%;
+		padding-bottom: 0px;
+	}
+
+	.imagen-portadaEP {
+		width: 100px;
+		height: 100px;
+		background: #fff url(../images/SmokingGlassesAnverso.jpg) no-repeat 50% 20%;
+		background-size: cover;
+
+		margin: auto;
+		border-radius: 5px;
+		box-shadow: 2px 7px 10px 0px #333333;
+		padding: 10px;
+	}
+	.imagen-portadaEPb {
+		width: 100px;
+		height: 100px;
+		background: #fff url(../images/SmokingGlassesReverso.jpg) no-repeat 50% 20%;
+		background-size: cover;
+		left:70%;
+		margin: auto;
+		border-radius: 5px;
+		box-shadow: 2px 7px 10px 0px #333333;
+		padding: 10px;
+	}
+
+
+	/*GALERY*/
+	.imaporep {
+		width: 200px;
+		height: 50px;
+		margin: auto;
+		border-radius: 5px;
+	}
+	.imaporepb {
+		width: 200px;
+		height: 600px;
+		margin: auto;
+		border-radius: 5px;
+	}
+
+}
